@@ -13,3 +13,6 @@ Results in Indexnew.html
 
 
 Under reach - > import maven project ->right click on testng.xml and run as testng suite -> results in indexnew.html
+
+
+Remaindeer of the cases are in morecases.docx
