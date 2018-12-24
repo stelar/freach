@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="56667" started-at="2018-12-24T12:11:48Z" finished-at="2018-12-24T12:12:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="56667" started-at="2018-12-24T12:11:48Z" finished-at="2018-12-24T12:12:44Z">
+      <class name="maint.Tests">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:maint.Tests@29ee9faa]" name="beforeTest" is-config="true" duration-ms="16" started-at="2018-12-24T17:41:48Z" finished-at="2018-12-24T17:41:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="openHomepage()[pri:0, instance:maint.Tests@29ee9faa]" name="openHomepage" duration-ms="11943" started-at="2018-12-24T17:41:48Z" finished-at="2018-12-24T17:41:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomepage -->
+        <test-method status="PASS" signature="LoginUser()[pri:0, instance:maint.Tests@29ee9faa]" name="LoginUser" duration-ms="3442" started-at="2018-12-24T17:41:59Z" finished-at="2018-12-24T17:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:maint.Tests@29ee9faa]" name="createUser" duration-ms="16888" started-at="2018-12-24T17:42:03Z" finished-at="2018-12-24T17:42:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="DeleteUser()[pri:0, instance:maint.Tests@29ee9faa]" name="DeleteUser" duration-ms="9813" started-at="2018-12-24T17:42:20Z" finished-at="2018-12-24T17:42:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUser -->
+        <test-method status="PASS" signature="editUser()[pri:0, instance:maint.Tests@29ee9faa]" name="editUser" duration-ms="13699" started-at="2018-12-24T17:42:30Z" finished-at="2018-12-24T17:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editUser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:maint.Tests@29ee9faa]" name="afterTest" is-config="true" duration-ms="848" started-at="2018-12-24T17:42:43Z" finished-at="2018-12-24T17:42:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- maint.Tests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
