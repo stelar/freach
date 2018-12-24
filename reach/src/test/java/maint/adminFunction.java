@@ -518,7 +518,18 @@ public class adminFunction {
 			e.printStackTrace();
 			return "fail";
 		}
-		
+		try {
+			result=key.getText(driver, Firstele);
+			if(result.equalsIgnoreCase("fail"))
+				return "fail";
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			
+			e.printStackTrace();
+			return "fail";
+		}
+		String fullName=result;
+		System.out.println(fullName);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {
@@ -585,7 +596,17 @@ public class adminFunction {
 			return "fail";
 		}
 		
-		
+		String user="xpath=//ul[@id='employee-list']//li[contains(.,'"+fullName+"')]";
+		try {
+			result=key.waitForNOElement(driver, user, 10);
+			if(!result.equalsIgnoreCase("pass"))
+				return "fail";
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			
+			e.printStackTrace();
+			return "fail";
+		}
 		return "pass";
 	}
 	
